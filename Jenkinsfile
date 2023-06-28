@@ -51,7 +51,8 @@ ipipeline {
                 sh 'ansible-playbook playbooks/create_directory.yml'
             }
         }
- stage('PUSH IMAGE ON DOCKERHUB') {
+        
+       stage('PUSH IMAGE ON DOCKERHUB') {
             environment {
             dockerhub_user = credentials('DOCKERHUB_USER')            
             dockerhub_pass = credentials('DOCKERHUB_PASS')
@@ -64,7 +65,6 @@ ipipeline {
                     --extra-vars "dockerhub_pass=$dockerhub_pass"'              
             }
         }
-        
-        
+          
     }
 }
