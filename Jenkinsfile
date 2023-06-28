@@ -17,4 +17,6 @@ pipeline {
                 git 'https://github.com/Shraddhagunjal13/devops_real_time_project_1.git'
             }
         }
-        
+
+    }
+}
