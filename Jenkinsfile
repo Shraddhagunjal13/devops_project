@@ -65,6 +65,6 @@ ipipeline {
                     --extra-vars "dockerhub_pass=$dockerhub_pass"'              
             }
         }
-          
+        
     }
 }
