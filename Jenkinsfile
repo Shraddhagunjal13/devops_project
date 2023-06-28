@@ -51,8 +51,6 @@ ipipeline {
                 sh 'ansible-playbook playbooks/create_directory.yml'
             }
         }
-        
-      
-        
+            
     }
 }
