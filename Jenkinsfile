@@ -65,7 +65,13 @@ pipeline {
                     --extra-vars "dockerhub_pass=$dockerhub_pass"'              
             }
         }
-        
+
+        stage('DEPLOYMENT ON EKS') {
+            steps {
+                sh 'ansible-playbook playbooks/create_pod_on_eks.yml \
+                    --extra-vars "JOB_NAME=$JOB_NAME"'
+            }            
+        }   
              
 
     }
