@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: shraddhagunjal/image-name:latest        
+        image: image-name       
         ports:
         - containerPort: 8080        
         readinessProbe:
