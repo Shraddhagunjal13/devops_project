@@ -53,6 +53,10 @@ pipeline {
         stage('COPY JAR & DOCKERFILE') {
             steps {
                 sh 'ansible-playbook playbooks/create_directory.yml'
+                 environment {
+                    dockerhub_user = credentials('DOCKERHUB_USER')            
+                    dockerhub_pass = credentials('DOCKERHUB_PASS')
+            } 
             }
         }
         
