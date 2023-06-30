@@ -12,7 +12,7 @@
  width:100%;
  background-color:red;
  float: left;
- background-image: url(webpage.jpg);
+ background-image: url(https://img.freepik.com/premium-photo/thai-countryside-art_733139-413.jpg?size=626&ext=jpg);
  background-size:100% 100%;
 }
 .menubar{
@@ -207,7 +207,6 @@ margin-top:10px;
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Service</a></li>
-				<li><a href="#">Design</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
