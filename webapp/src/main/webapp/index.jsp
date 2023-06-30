@@ -1,50 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Web App</title>
-    <style>
-      /* Styles for the color boxes */
-      .color-box {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-      }
+<head>
+	
+	<title>Form</title>
+</head>
+<body>
+	<form action="formsave.php" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label>Name</label>
+			<input type="text" ><br><br>
+			<label>Mobile No.</label>
+			<input type="number"><br><br>
+			<label>DOB</label>
+			<input type="date" ><br><br>
+			<label>Email</label>
+			<input type="email" ><br><br>
+			<label>Gender</label>
+			<input type="radio" option=""><b>Male</b>
+			<input type="radio" option=""><b>Female</b><br><br>
 
-      /* Color classes */
-      .red {
-        background-color: #ff5733;
-      }
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<label>Address</label>
+			<textarea></textarea><br><br>
+			<label>State</label>
+			<select>
+				<option>Choose</option>
+				<option>Maharashtra</option>
+				<option>Gujrta</option>
+				<option>Rajashtan</option>
+			</select><br><br>
+			<label>Dist</label>
+			<input type="text"><br><br>
+			<label>Tal</label>
+			<input type="text"><br><br>
+			<label>Pincode</label>
+			<input type="number"><br><br>
 
-      .green {
-        background-color: #00cc44;
-      }
+		</fieldset>
+		<fieldset>
+			<legend>Course</legend>
+			<label>Course Name</label>
+			<select>
+				<option>Front End</option>
+				<option>Back End</option>
+				<option>DB</option>
+			</select><br><br>
+			<label>Subject</label>
+			html <input type="checkbox" >
+			CSS <input type="checkbox" >
+			Bootstrap <input type="checkbox" >	<br><br>
+		</fieldset>
+		<fieldset>
+			<legend>Userdetails</legend>
+			<label>Username</label>
+			<input type="text"><br><br>
+			<label>Password</label>
+			<input type="Password">
+		</fieldset>
+		<fieldset>
+			<input type="reset">
+			<input type="submit">
+		</fieldset>
+	</form>
 
-      .blue {
-        background-color: #1a75ff;
-      }
-
-      .yellow {
-        background-color: #ffff00;
-      }
-
-      .purple {
-        background-color: #993399;
-      }
-    </style>
-  </head>
-  <body>
-    <h1> We provide online classes, Please find contact details in description box </h1>
-    <h2> Shraddha Gunjal </h2>
-
-    <br>
-    <br>
-    <h2> App Status  : Up & Running !!! </h2>
-    <h2> Image       : shraddhagunjal/IMAGE_NAME </h2>
-    <br>
-    <div class="color-box blue"></div>
-    <div class="color-box red"></div>
-    <div class="color-box green"></div>            
-    <div class="color-box purple"></div>
- </html>
+</body>
+</html>
