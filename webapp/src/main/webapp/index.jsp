@@ -36,7 +36,7 @@
   </head>
   <body>
     <h1> We provide online classes, Please find contact details in description box </h1>
-    <h2> Trainer Name: SUNNY GODIWAL </h2>
+    <h2> Shraddha Gunjal </h2>
 
     <br>
     <br>
