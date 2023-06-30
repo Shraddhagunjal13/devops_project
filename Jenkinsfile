@@ -20,6 +20,10 @@ pipeline {
         
         stage('MODIFIED IMAGE TAG') {
             steps {
+                 environment {
+                  dockerhub_user = credentials('DOCKERHUB_USER')            
+                  dockerhub_pass = credentials('DOCKERHUB_PASS')
+            } 
                 sh '''
                    sed "s/image-name:latest/$JOB_NAME:v1.$BUILD_ID/g" playbooks/dep_svc.yml
                    sed -i "s/image-name/$JOB_NAME:v1.$BUILD_ID/g" playbooks/dep_svc.yml
@@ -53,10 +57,7 @@ pipeline {
         }
         
         stage('PUSH IMAGE ON DOCKERHUB') {
-            environment {
-            dockerhub_user = credentials('DOCKERHUB_USER')            
-            dockerhub_pass = credentials('DOCKERHUB_PASS')
-            }    
+              
             steps {
                 sh 'ansible-playbook playbooks/push_dockerhub.yml \
                     --extra-vars "JOB_NAME=$JOB_NAME" \
