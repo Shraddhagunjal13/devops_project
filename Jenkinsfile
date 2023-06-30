@@ -28,7 +28,7 @@ pipeline {
                 sh '''
                    sed "s/image-name:latest/$JOB_NAME:v1.$BUILD_ID/g" playbooks/dep_svc.yml
                    #sed -i "s/image-name/$JOB_NAME:v1.$BUILD_ID/g" playbooks/dep_svc.yml
-                   sed -i "s/image-name#$dockerhub_user/$JOB_NAME:v1.$BUILD_ID#/g" playbooks/dep_svc.yml
+                   sed -i 's/imagename#$dockerhub_user/$JOB_NAME:v1.$BUILD_ID#/g' playbooks/dep_svc.yml
                    sed -i "s/IMAGE_NAME/$JOB_NAME:v1.$BUILD_ID/g" webapp/src/main/webapp/index.jsp
                    '''
             }            
