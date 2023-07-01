@@ -74,5 +74,56 @@ Get Jenkins Administrator password using this command:
 
 ***************************************************************************************************************************************************************
 
-<img width="960" alt="Screenshot_4" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/e9a0ed05-cfde-4798-8755-b83f6cb2d817">
+<img width="960" alt="Jenkins" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/2959bbe2-d9f5-4b76-993e-e7039174e3f1">
 
+# ANSIBLE INSTALLATI
+
+Add Ansible repository:
+
+    sudo apt-add-repository ppa:ansible/ansible
+
+Now fetch latest update & install Ansible:
+
+    sudo apt update
+    sudo apt-get install ansible -y  
+
+Now check Ansible version:
+   
+    ansible --version
+
+<img width="960" alt="Ansible" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/66c1e464-9239-491f-a80f-aa1b04d401ad">
+
+
+#  MAVEN INSTALLATION 
+ 
+ Check version before install
+     
+    mvn --version
+
+Change dir to /opt and download maven:
+
+    cd /opt/
+    ls
+    wget https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip
+    apt-get install unzip -y
+    unzip apache-maven-3.9.1-bin.zip
+    ls
+    rm -rf apache-maven-3.9.1-bin.zip
+    ls
+
+Configure maven home path:
+
+    vim ~/.bashrc
+
+    ## Add end of the file & save it.
+    export M2_HOME=/opt/apache-maven-3.9.1
+    export PATH=$PATH:$M2_HOME/bin
+
+    source ~/.bashrc
+
+Check version again now:
+
+    mvn --version
+    mvn --help
+
+<img width="960" alt="MVN" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/966faafa-ee4e-473f-a63d-14e28b29b050">
