@@ -414,6 +414,11 @@ After check delete the pod:
 <img width="960" alt="k8-3" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/334a98aa-0281-4e75-baf3-6c5318b14b8c">
 
 
+# Git Account:
+
+# Dockerhub Account:
+
+
 
        
 
