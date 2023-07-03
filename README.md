@@ -1,5 +1,6 @@
-
-#   JENKINS INSTALLATION 
+# **************** PART-1 **********************
+# Configure all below pre-requisites for project.
+#  1.JENKINS INSTALLATION 
 Jenkins Server Details:
          
     Operating System     : Ubuntu
@@ -76,7 +77,7 @@ Get Jenkins Administrator password using this command:
 
 <img width="960" alt="Jenkins" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/2959bbe2-d9f5-4b76-993e-e7039174e3f1">
 
-# ANSIBLE INSTALLATI
+# 2.ANSIBLE INSTALLATI
 
 Add Ansible repository:
 
@@ -94,7 +95,7 @@ Now check Ansible version:
 <img width="960" alt="Ansible" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/66c1e464-9239-491f-a80f-aa1b04d401ad">
 
 
-#  MAVEN INSTALLATION 
+#  3.MAVEN INSTALLATION 
  
  Check version before install
      
@@ -128,7 +129,7 @@ Check version again now:
 
 <img width="960" alt="MVN" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/966faafa-ee4e-473f-a63d-14e28b29b050">
 
-# SONARQUBE INSTALLATION
+# 4.SONARQUBE INSTALLATION
 
 Jenkins Server Details:
 
@@ -244,7 +245,7 @@ Open sonarqube on browser:
 <img width="960" alt="SonarQube3" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/46b1d8ec-4d24-4ac9-a0af-95758c6b9d27">
 
 
-# KUBERNETES CLUSTER INSTALLATION
+# 5.KUBERNETES CLUSTER INSTALLATION
 
 Kubernetes Cluster Server Details:
 
@@ -414,9 +415,11 @@ After check delete the pod:
 <img width="960" alt="k8-3" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/334a98aa-0281-4e75-baf3-6c5318b14b8c">
 
 
-# Git Account:
+# 6.Git Account:
 
-# Dockerhub Account:
+# 7.Dockerhub Account:
+
+# **************** PART-2 **********************
 
 
 
