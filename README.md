@@ -312,6 +312,9 @@ Install the latest version of Docker Engine and containerd:
 Check the installation (and version) by entering the following:
         
     docker --version
+    
+<img width="960" alt="docker" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/8e8902e2-b83f-42fe-8ea0-bb6e309b26a4">
+
 
 The product_uuid can be checked by using the command:
 
@@ -444,6 +447,9 @@ After check delete the pod:
 
 		                 Script Path: Jenkinsfile  
 
+     <img width="960" alt="Screenshot_7" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/767cf475-7a70-4e47-a57a-a6ef1963d05e">
+
+
 # Jenkins integration with Sonarqube server.
 
     Login Sonarqube server:
@@ -455,6 +461,9 @@ After check delete the pod:
     Generate
 
     After that copy token & save it.
+
+    <img width="960" alt="sonarQ" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/6f8dc464-d511-4d7e-b36f-9d005f06514d">
+
 
 # Go to Jenkins and create credential for Sonar token
 
@@ -517,6 +526,9 @@ After check delete the pod:
                                                                                             Des: DOCKERHUB_PASS
     Create
 
+<img width="951" alt="finalepipeline" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/be7ce027-45ac-4c32-a385-e41f14e791fd">
+
+
 # Github integrate with Jenkins.
 
     +++++++++++++++ GITHUB ACCOUNT ++++++++++++++++++++++
@@ -531,7 +543,9 @@ After check delete the pod:
     Jenkins > project-1 > Configure > Build Triggers > 
                                           GitHub hook trigger for GITScm polling
 
+<img width="956" alt="forauto" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/bf0b0629-b9f3-4aa2-96f2-e34a38aa1929">
 
+<img width="960" alt="final" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/a29e9302-1e96-4fad-8110-176488b9407d">
 
 
 
