@@ -422,8 +422,10 @@ After check delete the pod:
 
 
 # 6.Git Account:
+     https://github.com/Shraddhagunjal13
 
-# 7.Dockerhub Account: https://hub.docker.com/repository/docker/shraddhagunjal/project2/general
+# 7.Dockerhub Account:
+     https://hub.docker.com/repository/docker/shraddhagunjal/project2/general
 
 # **************** PART-3 **********************
 
