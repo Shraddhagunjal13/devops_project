@@ -1,6 +1,5 @@
-
+# JENKINS INSTALLATION 
 # Configure all below pre-requisites for project.
-#  1.JENKINS INSTALLATION 
 Jenkins Server Details:
          
     Operating System     : Ubuntu
