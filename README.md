@@ -11,13 +11,16 @@
 
 1. **[Install Jenkins & Ansible & Maven ](https://github.com/Shraddhagunjal13/devops_real_time_project_1/blob/master/project.api/Install_Jenkins_Ansible%20_Maven.md)**
 
+2. **[Install Sonarqube](https://github.com/Shraddhagunjal13/devops_real_time_project_1/blob/master/project.api/Install_Sonarqube.md)**
 
+3. **[Install Kubernetes Cluster](https://github.com/Shraddhagunjal13/devops_real_time_project_1/blob/master/project.api/Install_Kubernetes_Cluster.md)**
 
-# 6.Git Account:
-     https://github.com/Shraddhagunjal13
+4. **[Git Account](https://github.com/Shraddhagunjal13)**
 
-# 7.Dockerhub Account:
-     https://hub.docker.com/repository/docker/shraddhagunjal/project2/general
+5.  **[Dockerhub Account](https://hub.docker.com/u/shraddhagunjal)**
+
+<br/>
+<br/>
 
 # **************** PART-3 **********************
 
