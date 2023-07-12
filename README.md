@@ -5,7 +5,8 @@
 <br/>
 <br/>
 # **************** PART-2 **********************
-### Configure all below pre-requisites for project.
+
+# Configure all below pre-requisites for project.
 
 <br/>
 
