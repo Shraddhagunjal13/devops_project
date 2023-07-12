@@ -2,8 +2,8 @@
 #                                    *  Overview of project-1 *
 ![DevOps Project](https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/d3e233af-2f70-49c4-912d-5dcf5e6749cc)
 
-              
-
+<br/>
+<br/>
 # **************** PART-2 **********************
 ### Configure all below pre-requisites for project.
 
@@ -38,9 +38,12 @@
 		                      Repository URL: https://github.com/sunnydevops2022/devops_real_time_project_1.git
 
 		                 Script Path: Jenkinsfile  
-
+   <br/>
+   <br/>
      <img width="960" alt="Screenshot_7" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/767cf475-7a70-4e47-a57a-a6ef1963d05e">
 
+   <br/>
+   <br/>
 
 # Jenkins integration with Sonarqube server.
 
@@ -54,9 +57,12 @@
 
     After that copy token & save it.
 
+   <br/>
+   <br/>
     <img width="960" alt="sonarQ" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/6f8dc464-d511-4d7e-b36f-9d005f06514d">
 
-
+   <br/>
+   <br/>
 # Go to Jenkins and create credential for Sonar token
 
     Dashboard > Manage Jenkins > Credentials > System Global credentials (unrestricted) > Add credentials > 
@@ -118,8 +124,12 @@
                                                                                             Des: DOCKERHUB_PASS
     Create
 
+   <br/>
+   <br/>
 <img width="951" alt="finalepipeline" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/be7ce027-45ac-4c32-a385-e41f14e791fd">
 
+  <br/>
+   <br/>
 
 # Github integrate with Jenkins.
 
@@ -134,11 +144,16 @@
 
     Jenkins > project-1 > Configure > Build Triggers > 
                                           GitHub hook trigger for GITScm polling
-
+   <br/>
+   <br/>
 <img width="956" alt="forauto" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/bf0b0629-b9f3-4aa2-96f2-e34a38aa1929">
 
-<img width="960" alt="final" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/a29e9302-1e96-4fad-8110-176488b9407d">
+    <br/>
+   <br/>
 
+<img width="960" alt="final" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/a29e9302-1e96-4fad-8110-176488b9407d">
+   <br/>
+   <br/>
 
 
 
