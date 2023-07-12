@@ -148,12 +148,12 @@
    <br/>
 <img width="956" alt="forauto" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/bf0b0629-b9f3-4aa2-96f2-e34a38aa1929">
 
-    <br/>
-   <br/>
+  <br/>
+  <br/>
 
 <img width="960" alt="final" src="https://github.com/Shraddhagunjal13/devops_real_time_project_1/assets/85820035/a29e9302-1e96-4fad-8110-176488b9407d">
-   <br/>
-   <br/>
+<br/>
+<br/>
 
 
 
